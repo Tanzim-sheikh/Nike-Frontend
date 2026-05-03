@@ -9,7 +9,7 @@ import { AuthProvider } from './context/AuthContext.jsx';
 
 
 import AdminLogin from "./components/admin/AdminLogin.jsx";
-import AdminDashboard from "./components/Admin/adminDashboard.jsx";
+import AdminDashboard from "./components/admin/AdminDashboard.jsx";
 
 import ProductListing from './components/Products/ProductListing';
 import ProductDetail from './components/Products/ProductDetail';
