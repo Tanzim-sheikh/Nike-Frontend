@@ -8,8 +8,8 @@ import ResetPassword from "./components/Login&SignUp/ResetPassword.jsx";
 import { AuthProvider } from './context/AuthContext.jsx';
 
 
-import AdminLogin from "./components/Admin/AdminLogin.jsx";
-import AdminDashboard from "./components/Admin/AdminDashboard.jsx";
+import AdminLogin from "./components/admin/AdminLogin.jsx";
+import AdminDashboard from "./components/Admin/adminDashboard.jsx";
 
 import ProductListing from './components/Products/ProductListing';
 import ProductDetail from './components/Products/ProductDetail';
@@ -18,8 +18,8 @@ import Profile from "./components/Products/Profile.jsx";
 import MyOrders from './components/Products/MyOrders';
 
 // 👇 Protected Route wrapper (optional but recommended)
-import AdminRoute from "./components/Admin/AdminRoute.jsx";
-import AddProduct from "./components/Admin/AddProduct.jsx";
+import AdminRoute from "./components/admin/AdminRoute.jsx";
+import AddProduct from "./components/admin/AddProduct.jsx";
 import EditProduct from "./components/admin/EditProduct.jsx";
 import AdminProducts from "./components/admin/AdminProducts.jsx";
 import AdminOrders from "./components/admin/AdminOrders.jsx";
